@@ -1,3 +1,9 @@
-.vimbackup/
+.vimbackup
+env
+build
+dist
+__pycache__
 
 *.bat
+*.spec
+*.pyc

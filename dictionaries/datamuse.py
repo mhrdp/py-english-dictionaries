@@ -1,7 +1,7 @@
 import requests
 
 class Datamuse:
-    def __init__(self, max_result=100):
+    def __init__(self, max_result=30):
         self.api_root = 'https://api.datamuse.com'
         self.max_result = max_result
         self.__validate_max__(max_result)
